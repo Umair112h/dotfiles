@@ -1,4 +1,5 @@
 call plug#begin()
+Plug 'mattn/emmet-vim'
 call plug#end()
 
 set number
