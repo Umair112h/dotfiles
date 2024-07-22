@@ -12,3 +12,5 @@ alias yeet='yay -Rns'
 
 PS1='\w:$ '
 export EDITOR='vim'
+
+fortune | cowsay -f tux
