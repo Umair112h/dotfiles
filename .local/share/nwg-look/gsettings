@@ -2,7 +2,7 @@
 gtk-theme=Graphite-Dark
 icon-theme=Adwaita
 font-name=Ubuntu Mono Bold 12
-cursor-theme=Bibata-Modern-Ice
+cursor-theme=phinger-cursors-dark
 cursor-size=24
 toolbar-style=both-horiz
 toolbar-icons-size=large
