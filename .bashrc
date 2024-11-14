@@ -9,6 +9,7 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
 alias yeet='yay -Rns'
+alias dark='killall mpvpaper || mpvpaper -o loop eDP-1 ~/Videos/_.mp4 &'
 
 PS1='\w:$ '
 export EDITOR='vim'
