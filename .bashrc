@@ -11,9 +11,9 @@ alias config='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
 alias yeet='yay -Rns'
 alias dark='killall mpvpaper || mpvpaper -o loop eDP-1 ~/Videos/_.mp4 &'
 alias open='xdg-open'
-alias {vim,v,vi}='nvim'
+alias {vim,vi,v}='nvim'
 
 PS1='\w:$ '
-export EDITOR='vim'
+export EDITOR='nvim'
 
 fortune | cowsay -f tux
