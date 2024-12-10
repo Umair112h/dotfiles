@@ -1,3 +1,3 @@
 # Screenshot
 
-![Cool Desktop](screenshot.png?raw=true "Optional Title")
+![Cool Desktop](Pictures/screenshot.png?raw=true "Optional Title")
