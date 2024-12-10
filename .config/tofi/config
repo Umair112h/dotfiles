@@ -7,7 +7,7 @@
 # Dotfiles circa 2023
 
 # Font
-font = Ubuntu Bold Mono
+font = Ubuntu Mono
 font-size = 18
 
 # Window Style
@@ -20,7 +20,7 @@ min-input-width = 130
 result-spacing = 30
 padding-top = 35%
 padding-bottom = 0
-padding-left = 35%
+padding-left = 40%
 padding-right = 0
 num-results = 5
 prompt-text = "What Ya Need? "
