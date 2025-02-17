@@ -1,0 +1,28 @@
+{
+    "checksum": "7ee9c786f920495857f3f8f63f6e8e4e",
+    "wallpaper": "/home/umair/Pictures/Wallpapers/Wallpaper-6.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A0E1E",
+        "foreground": "#c1c2c6",
+        "cursor": "#c1c2c6"
+    },
+    "colors": {
+        "color0": "#0A0E1E",
+        "color1": "#a14d70",
+        "color2": "#7d6f7b",
+        "color3": "#9e6c83",
+        "color4": "#b36c81",
+        "color5": "#bb818a",
+        "color6": "#a67b93",
+        "color7": "#8f9199",
+        "color8": "#5b606f",
+        "color9": "#D76796",
+        "color10": "#A795A5",
+        "color11": "#D390AF",
+        "color12": "#EF91AC",
+        "color13": "#FAADB9",
+        "color14": "#DEA5C4",
+        "color15": "#c1c2c6"
+    }
+}

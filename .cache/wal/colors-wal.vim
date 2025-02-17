@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/umair/Pictures/Wallpapers/Wallpaper-14.jpg"
+let background = "#040404"
+let foreground = "#c0c0c0"
+let cursor     = "#c0c0c0"
+
+" Colors
+let color0  = "#040404"
+let color1  = "#202020"
+let color2  = "#292929"
+let color3  = "#343434"
+let color4  = "#414141"
+let color5  = "#525252"
+let color6  = "#696969"
+let color7  = "#938888"
+let color8  = "#645151"
+let color9  = "#2B2B2B"
+let color10 = "#373737"
+let color11 = "#464646"
+let color12 = "#575757"
+let color13 = "#6E6E6E"
+let color14 = "#8D8D8D"
+let color15 = "#c0c0c0"

@@ -1,0 +1,105 @@
+{
+    "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+    "name": "pywal",
+    "author": "pywal",
+    "themes": [
+        {
+            "name": "pywal",
+            "appearance": "dark",
+            "style": {
+                "background": "#04040490",
+                "editor.background": "#04040490",
+                "editor.foreground": "#c0c0c0",
+                "text": "#c0c0c0",
+                "text.muted": "#c0c0c070",
+                "text.ignored": "#c0c0c040",
+                "text.placeholder": "#c0c0c050",
+                "ignored": "#c0c0c030",
+                "element.hover": "#c0c0c030",
+                "ghost_element.hover": "#20202030",
+                "ghost_element.selected": "#20202030",
+                "ghost_element.active": "#20202060",
+                "border": "#040404",
+                "editor.highlighted_line.background": "#20202010",
+                "editor.active_line.background": "#20202010",
+                "panel.background": "#04040490",
+                "title_bar.background": "#04040490",
+                "title_bar.inactive_background": "#04040490",
+                "status_bar.background": "#04040490",
+                "drop_target.background": "#04040490",
+                "elevated_surface.background": "#040404",
+                "toolbar.background": "#04040490",
+                "tab_bar.background": "#04040490",
+                "tab.inactive_background": "#04040490",
+                "tab.active_background": "#20202030",
+                "scrollbar.track.background": "transparent",
+                "scrollbar.track.border": "#040404",
+                "scrollbar.thumb.background": "#202020",
+                "editor.gutter.background": "#04040490",
+                "terminal.background": "#04040410",
+                "terminal.foreground": "#c0c0c0",
+                "terminal.dim_foreground": "#c0c0c0",
+                "terminal.bright_foreground": "#c0c0c0",
+                "terminal.ansi.black": "#040404",
+                "terminal.ansi.red": "#202020",
+                "terminal.ansi.green": "#292929",
+                "terminal.ansi.yellow": "#343434",
+                "terminal.ansi.blue": "#414141",
+                "terminal.ansi.magenta": "#525252",
+                "terminal.ansi.cyan": "#696969",
+                "terminal.ansi.white": "#938888",
+                "terminal.ansi.bright_black": "#645151",
+                "terminal.ansi.bright_red": "#2B2B2B",
+                "terminal.ansi.bright_green": "#373737",
+                "terminal.ansi.bright_yellow": "#464646",
+                "terminal.ansi.bright_blue": "#575757",
+                "terminal.ansi.bright_magenta": "#6E6E6E",
+                "terminal.ansi.bright_cyan": "#8D8D8D",
+                "terminal.ansi.bright_white": "#c0c0c0",
+                "modified": "#202020",
+                "syntax": {
+                    "attribute": {
+                        "color": "#202020"
+                    },
+                    "boolean": {
+                      "color": "#292929"
+                    },
+                    "comment": {
+                      "color": "#645151"
+                    },
+                    "comment.doc": {
+                      "color": "#645151"
+                    },
+                    "constant": {
+                      "color": "#373737"
+                    },
+                    "function": {
+                      "color": "#8D8D8D"
+                    },
+                    "keyword": {
+                      "color": "#414141"
+                    },
+                    "number": {
+                      "color": "#525252"
+                    },
+                    "operator": {
+                      "color": "#414141"
+                    },
+                    "string": {
+                      "color": "#202020"
+                    },
+                    "variable": {
+                      "color": "#292929"
+                    }
+                },
+                "players": [
+                  {
+                    "cursor": "#202020",
+                    "background": "#040404",
+                    "selection": "#20202030"
+                  }
+                ]
+            }
+        }
+    ]
+}

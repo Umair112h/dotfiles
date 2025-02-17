@@ -1,0 +1,21 @@
+set $wallpaper /home/umair/Pictures/Wallpapers/Wallpaper-14.jpg
+
+set $background #040404
+set $foreground #c0c0c0
+
+set $color0 #040404
+set $color1 #202020
+set $color2 #292929
+set $color3 #343434
+set $color4 #414141
+set $color5 #525252
+set $color6 #696969
+set $color7 #938888
+set $color8 #645151
+set $color9 #2B2B2B
+set $color10 #373737
+set $color11 #464646
+set $color12 #575757
+set $color13 #6E6E6E
+set $color14 #8D8D8D
+set $color15 #c0c0c0
