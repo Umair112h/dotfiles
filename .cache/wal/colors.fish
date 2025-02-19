@@ -1,25 +1,39 @@
-set fish_color_normal normal
-set fish_color_command 786b54
-set fish_color_param A18F70
-set fish_color_redirection $fish_color_param
-set fish_color_comment 99533f
-set fish_color_error ff0000
-set fish_color_escape 78493c
-set fish_color_operator $fish_color_escape
-set fish_color_end 78493c
-set fish_color_quote 99533f
 set fish_color_autosuggestion 615567
-set fish_color_user DE9070
-set fish_color_host a66c54
-set fish_color_valid_path --underline
-set fish_color_cwd a66c54
-set fish_color_cwd_root red
-set fish_color_match --background=brblue
-set fish_color_search_match bryellow --background=brblack
-set fish_color_selection white --bold --background=brblack
-set fish_color_cancel -r
-set fish_pager_color_prefix white --bold --underline
-set fish_pager_color_completion c1c0c2 --background=0A060B
-set fish_pager_color_description $fish_color_quote yellow
-set fish_pager_color_progress a7816f --background=0A060B
+set fish_color_cancel 78493c '--reverse'
+set fish_color_command CC6F54
+set fish_color_comment 615567
+set fish_color_cwd 99533f
+set fish_color_cwd_root 78493c
+set fish_color_end 786b54
+set fish_color_error 78493c
+set fish_color_escape 437064
 set fish_color_history_current --bold
+set fish_color_host DE9070
+set fish_color_host_remote DE9070
+set fish_color_keyword 437064
+set fish_color_match --background=a66c54
+set fish_color_normal c1c0c2
+set fish_color_operator a7816f
+set fish_color_option 786b54
+set fish_color_param DE9070
+set fish_color_quote A18F70
+set fish_color_redirection 437064
+set fish_color_search_match --background=615567
+set fish_color_selection --background=615567
+set fish_color_status 78493c
+set fish_color_user CC6F54
+set fish_color_valid_path --underline
+
+set fish_pager_color_background 0A060B
+set fish_pager_color_completion c1c0c2
+set fish_pager_color_description 615567
+set fish_pager_color_prefix CC6F54
+set fish_pager_color_progress 615567
+set fish_pager_color_secondary_background 0A060B
+set fish_pager_color_secondary_completion c1c0c2
+set fish_pager_color_secondary_description 615567
+set fish_pager_color_secondary_prefix CC6F54
+set fish_pager_color_selected_background --background=615567
+set fish_pager_color_selected_completion c1c0c2
+set fish_pager_color_selected_description 615567
+set fish_pager_color_selected_prefix CC6F54
