@@ -94,7 +94,7 @@
                 },
                 {
                     "label": "",
-                    "command": "kitty bash -i -c 'Settings'"
+                    "command": "kitty bash -i -c 'cd .config/hypr && nvim .'"
                     
                 },
                 {
