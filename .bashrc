@@ -19,5 +19,6 @@ export EDITOR='nvim'
 export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
 export TERM=xterm-256color
 (cat ~/.cache/wal/sequences &)
+eval "$(fzf --bash)"
 
 # fortune | cowsay -f tux
