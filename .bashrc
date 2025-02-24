@@ -25,4 +25,7 @@ export TERM=xterm-256color
 # Fzf integration
 eval "$(fzf --bash)"
 
+# Starship
+eval "$(starship init bash)"
+
 # fortune | cowsay -f tux
