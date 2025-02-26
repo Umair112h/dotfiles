@@ -21,6 +21,4 @@ vim.opt.undofile = true
 
 vim.g.mapleader = " "
 
-vim.cmd.colorscheme('catppuccin')
-
 vim.opt.showmode = false

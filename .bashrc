@@ -9,6 +9,7 @@
 [[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
 
 alias ls='ls --color=auto'
+alias ll='ls -Alh --color=auto'
 alias grep='grep --color=auto'
 alias yeet='yay -Rns'
 alias open='xdg-open'
