@@ -43,7 +43,6 @@ return require('packer').startup(function(use)
   use('nvim-treesitter/playground')
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
-  use('theprimeagen/harpoon')
 
   use({'neovim/nvim-lspconfig'})
   use({'hrsh7th/nvim-cmp'})
