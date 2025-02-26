@@ -18,8 +18,11 @@ return require('packer').startup(function(use)
 	  as = 'rose-pine',
 	  config = function()
 		  require('rose-pine').setup({
-			  transparent_background = true,
+              styles = {
+                  transparency = true,
+              }
 		  })
+		  vim.cmd('colorscheme rose-pine')
 	  end
   })
 
@@ -28,9 +31,7 @@ return require('packer').startup(function(use)
 	  as = "catppuccin",
 	  config = function()
 		  require('catppuccin').setup({
-			  transparent_background = true,
 		  })
-		  vim.cmd('colorscheme catppuccin')
 	  end
   })
 
