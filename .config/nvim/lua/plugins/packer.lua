@@ -13,6 +13,7 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
+  -- Rose Pine
   use({
 	  'rose-pine/neovim',
 	  as = 'rose-pine',
@@ -26,6 +27,7 @@ return require('packer').startup(function(use)
 	  end
   })
 
+  -- Catppuccin
   use({
 	  "catppuccin/nvim",
 	  as = "catppuccin",
@@ -35,16 +37,22 @@ return require('packer').startup(function(use)
 	  end
   })
 
+  -- Lualine
   use {
       'nvim-lualine/lualine.nvim',
       requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
 
+  -- Vim-Tmux navigation
+  use('christoomey/vim-tmux-navigator')
+
+  -- Must-have plugins
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
 
+  -- LSP setup
   use({'neovim/nvim-lspconfig'})
   use({'hrsh7th/nvim-cmp'})
   use({'hrsh7th/cmp-nvim-lsp'})
