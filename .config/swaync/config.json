@@ -71,7 +71,7 @@
 
                 {
                     "label": "",
-                    "command": "kitty nmtui"
+                    "command": "kitty bash -ci nmtui"
                 },
                 {
                     "label": "",
@@ -94,12 +94,12 @@
                 },
                 {
                     "label": "",
-                    "command": "kitty bash -i -c 'cd .config/hypr && nvim .'"
+                    "command": "kitty bash -ci 'cd ~/.config/hypr/ && nvim .'"
                     
                 },
                 {
                     "label": "",
-                    "command": "kitty bash -i -c 'tasks'"
+                    "command": "notify-send 'not implemented yet!'"
 
                 },
                 {
