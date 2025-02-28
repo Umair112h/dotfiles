@@ -32,4 +32,4 @@ eval "$(fzf --bash)"
 # Starship
 eval "$(starship init bash)"
 
-# fortune | cowsay -f tux
+fortune | cowsay -f tux
