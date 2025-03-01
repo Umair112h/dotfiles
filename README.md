@@ -1,1 +1,1 @@
-### My Personal Minimal Hyprland Dotfiles.
+## My Personal Minimal Hyprland Dotfiles.
