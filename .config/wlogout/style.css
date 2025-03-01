@@ -31,7 +31,7 @@
   }
   
   button:hover#lock {
-    background-color: alpha(@color9,1);
+    background-color: alpha(@color9,0.5);
     background-size: 25%;
     margin-right: 30px;
     margin-bottom: 30px;
@@ -41,7 +41,7 @@
   }
   
   button:hover#logout {
-    background-color: alpha(@color9,1);
+    background-color: alpha(@color9,0.5);
     background-size: 25%;
     margin: 0px 30px 30px 30px;
     border-radius: 20px;
@@ -50,7 +50,7 @@
   }
   
   button:hover#suspend {
-    background-color: alpha(@color9,1);
+    background-color: alpha(@color9,0.5);
     background-size: 25%;
     margin: 0px 0px 30px 30px;
     border-radius: 20px;
@@ -59,7 +59,7 @@
   }
   
   button:hover#hibernate {
-    background-color: alpha(@color9,1);
+    background-color: alpha(@color9,0.5);
     background-size: 25%;
     margin: 30px 30px 0px 0px;
     border-radius: 20px;
@@ -68,7 +68,7 @@
   }
   
   button:hover#shutdown {
-    background-color: alpha(@color9,1);
+    background-color: alpha(@color9,0.5);
     background-size: 25%;
     margin: 30px 30px 0 30px;
     border-radius: 20px;
@@ -77,7 +77,7 @@
   }
   
   button:hover#reboot {
-    background-color: alpha(@color9,1);
+    background-color: alpha(@color9,0.5);
     background-size: 25%;
     margin-left: 30px;
     margin-top: 30px;
