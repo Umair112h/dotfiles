@@ -33,6 +33,7 @@ return require('packer').startup(function(use)
 	  as = "catppuccin",
 	  config = function()
 		  require('catppuccin').setup({
+              transparent_background = true,
 		  })
 	  end
   })
