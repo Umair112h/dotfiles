@@ -1,6 +1,5 @@
 #!/bin/bash
 WALLPAPER_DIR="$HOME/Pictures/Wallpapers"
-#I dont know what the fuck I am doing
 menu() {
     find "${WALLPAPER_DIR}" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" \) | awk '{print "img:"$0}'
 }
@@ -11,7 +10,6 @@ main() {
     wal -i "$selected_wallpaper" -n --cols16
     swaync-client --reload-css
     cat ~/.cache/wal/colors-kitty.conf > ~/.config/kitty/current-theme.conf
-    pywalfox update
     color1=$(awk 'match($0, /color2=\47(.*)\47/,a) { print a[1] }' ~/.cache/wal/colors.sh)
     color2=$(awk 'match($0, /color3=\47(.*)\47/,a) { print a[1] }' ~/.cache/wal/colors.sh)
     cava_config="$HOME/.config/cava/config"
