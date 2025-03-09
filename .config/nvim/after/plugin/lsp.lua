@@ -43,6 +43,7 @@ require('lspconfig').clangd.setup({})
 require('lspconfig').pyright.setup({})
 require('lspconfig').lua_ls.setup({})
 require('lspconfig').bashls.setup({})
+require('lspconfig').hls.setup({})
 
 local cmp = require('cmp')
 
