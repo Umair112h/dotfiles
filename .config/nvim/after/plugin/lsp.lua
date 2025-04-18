@@ -44,6 +44,7 @@ require('lspconfig').pyright.setup({})
 require('lspconfig').lua_ls.setup({})
 require('lspconfig').bashls.setup({})
 require('lspconfig').hls.setup({})
+require('lspconfig').html.setup({})
 
 local cmp = require('cmp')
 
