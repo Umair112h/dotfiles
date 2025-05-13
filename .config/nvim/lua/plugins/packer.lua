@@ -65,6 +65,14 @@ return require('packer').startup(function(use)
   -- Vim-Tmux navigation
   use('christoomey/vim-tmux-navigator')
 
+  -- Live Server
+  use({
+      'barrett-ruth/live-server.nvim',
+      config = function()
+          require('live-server').setup({})
+      end,
+  })
+
   -- Must-have plugins
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
