@@ -24,4 +24,3 @@ vim.opt.undofile = true
 vim.g.mapleader = " "
 
 vim.opt.showmode = false
-vim.diagnostic.config({ virtual_text = true })
