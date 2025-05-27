@@ -62,6 +62,7 @@ return {
         require('lspconfig').html.setup({})
         require('lspconfig').hls.setup({})
         require('lspconfig').ts_ls.setup({})
+        require('lspconfig').cssls.setup({})
         require('lspconfig').emmet_language_server.setup({
             filetypes = { "css", "eruby", "html", "javascript", "javascriptreact", "less", "sass", "scss", "pug", "typescriptreact" },
             init_options = {
