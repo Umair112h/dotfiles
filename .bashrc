@@ -15,6 +15,7 @@ alias grep='grep --color=auto'
 alias yeet='yay -Rns'
 alias open='xdg-open'
 alias {vim,vi,v}='nvim'
+alias reading-mode='~/.local/scripts/reading-mode.sh'
 
 # Bash Prompt
 PS1='\w:$ '
