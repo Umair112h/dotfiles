@@ -60,12 +60,12 @@
             "actions": [
                 {
                     "label": "󰝟",
-                    "command": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+                    "command": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
                     "type": "toggle"
                 },
                 {
                     "label": "󰍭",
-                    "command": "pactl set-source-mute @DEFAULT_SOURCE@ toggle",
+                    "command": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle",
                     "type": "toggle"
                 },
 
