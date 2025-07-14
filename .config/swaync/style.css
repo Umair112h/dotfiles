@@ -72,7 +72,7 @@
     padding-right:10px;
 }
 
-.control-center .notification-row .notification-background .notification..notification-content image,
+.control-center .notification-row .notification-background .notification .notification-content image,
 .control-center .notification-row .notification-background .notification.normal .notification-content image,
 .floating-notifications.background .notification-background .notification.low .notification-content image,
 .floating-notifications.background .notification-background .notification.normal .notification-content image {
