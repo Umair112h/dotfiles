@@ -88,8 +88,7 @@
   
   #lock {
     background-image: image(
-      url('/usr/share/wlogout/icons/lock.png'),
-      url('/usr/local/share/wlogout/icons/lock.png')
+      url('./icons/lock.png')
     );
     background-size: 12%;
     border-top-left-radius: 50px;
@@ -98,24 +97,21 @@
   
   #logout {
     background-image: image(
-      url('/usr/share/wlogout/icons/logout.png'),
-      url('/usr/local/share/wlogout/icons/logout.png')
+      url('./icons/logout.png')
     );
     background-color: transparent;
   }
   
   #shutdown {
     background-image: image(
-      url('/usr/share/wlogout/icons/shutdown.png'),
-      url('/usr/local/share/wlogout/icons/shutdown.png')
+      url('./icons/shutdown.png')
     );
     background-color: transparent;
   }
   
   #reboot {
     background-image: image(
-      url('/usr/share/wlogout/icons/reboot.png'),
-      url('/usr/local/share/wlogout/icons/reboot.png')
+      url('./icons/reboot.png')
     );
     border-bottom-right-radius: 50px;
     background-color: transparent;
@@ -123,8 +119,7 @@
   
   #suspend {
     background-image: image(
-      url('/usr/share/wlogout/icons/suspend.png'),
-      url('/usr/local/share/wlogout/icons/suspend.png')
+      url('./icons/suspend.png')
     );
     border-top-right-radius: 50px;
     background-color: transparent;
@@ -132,8 +127,7 @@
   
   #hibernate {
     background-image: image(
-      url('/usr/share/wlogout/icons/hibernate.png'),
-      url('/usr/local/share/wlogout/icons/hibernate.png')
+      url('./icons/hibernate.png')
     );
     border-bottom-left-radius: 50px;
     background-color: transparent;
