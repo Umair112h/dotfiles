@@ -16,6 +16,8 @@ alias yeet='yay -Rns'
 alias open='xdg-open'
 alias {vim,vi,v}='nvim'
 alias reading-mode='~/.local/scripts/reading-mode.sh'
+alias cp='cp -i'
+alias mv='mv -i'
 
 # Bash Prompt
 PS1='\w:$ '
