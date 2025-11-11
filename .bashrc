@@ -25,6 +25,7 @@ PS1='\w:$ '
 export EDITOR='nvim'
 export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
 export PATH="$PATH:/home/$USER/.ghcup/bin"
+export MANPAGER='nvim +Man!'
 
 # Loading Pywal
 (cat ~/.cache/wal/sequences &)
