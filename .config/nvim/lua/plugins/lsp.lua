@@ -35,7 +35,6 @@ return {
         vim.lsp.enable('hls')
         vim.lsp.enable('ts_ls')
         vim.lsp.enable('cssls')
-        vim.lsp.enable('jdtls')
         vim.lsp.config['emmet_language_server'] = {
             filetypes = { "css", "eruby", "html", "javascript", "javascriptreact", "less", "sass", "scss", "pug", "typescriptreact" },
             init_options = {
@@ -60,6 +59,31 @@ return {
             },
         }
         vim.lsp.enable('emmet_language_server')
+
+        vim.api.nvim_create_autocmd('FileType', {
+            pattern = 'java',
+            callback = function()
+                local jdtls = require('jdtls')
+
+                local config = {
+                    name = "jdtls",
+
+                    cmd = { "jdtls" },
+
+                    root_dir = vim.fs.root(0, { 'gradlew', '.git', 'mvnw' }),
+
+                    settings = {
+                        java = {}
+                    },
+
+                    init_options = {
+                        bundles = {}
+                    },
+                }
+
+                jdtls.start_or_attach(config)
+            end
+        })
 
         local cmp = require('cmp')
 
