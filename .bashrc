@@ -12,12 +12,11 @@
 alias ls='ls --color=auto'
 alias ll='ls -Alh --color=auto'
 alias grep='grep --color=auto'
-alias yeet='yay -Rns'
+alias yeet='paru -Rns'
 alias open='xdg-open'
 alias {vim,vi,v}='nvim'
 alias reading-mode='~/.local/scripts/reading-mode.sh'
-alias cp='cp -i'
-alias mv='mv -i'
+alias coolinstaller="paru -Slq | fzf -m --preview 'paru -Si {1}' --preview-window=bottom:60% | xargs -r sudo paru -S"
 
 # Bash Prompt
 PS1='\w:$ '
@@ -37,3 +36,5 @@ eval "$(fzf --bash)"
 eval "$(starship init bash)"
 
 # fortune | cowsay -f tux
+
+HISTCONTROL=ignoredups
