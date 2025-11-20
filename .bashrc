@@ -21,6 +21,10 @@ alias coolinstaller="paru -Slq | fzf -m --preview 'paru -Si {1}' --preview-windo
 # Bash Prompt
 PS1='\w:$ '
 
+# GnuPG
+GPG_TTY=$(tty)
+export GPG_TTY
+
 # Environment variables
 export EDITOR='nvim'
 export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
