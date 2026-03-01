@@ -16,7 +16,6 @@ alias yeet='paru -Rns'
 alias open='xdg-open'
 alias {vim,vi,v}='nvim'
 alias reading-mode='~/.local/scripts/reading-mode.sh'
-alias coolinstaller="yay -Slq | fzf -m --preview 'yay -Si {1}' --preview-window=bottom:60% | xargs -r -o yay -S"
 
 # Bash Prompt
 PS1='\w:$ '
@@ -30,9 +29,6 @@ export EDITOR='nvim'
 export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
 export PATH="$PATH:/home/$USER/.ghcup/bin"
 export MANPAGER='nvim +Man!'
-
-# Loading Pywal
-(cat ~/.cache/wal/sequences &)
 
 # Fzf integration
 eval "$(fzf --bash)"
