@@ -19,6 +19,10 @@ main() {
     sed -i "s/^gradient_color_1 = .*/gradient_color_1 = '$color1'/" $cava_config
     sed -i "s/^gradient_color_2 = .*/gradient_color_2 = '$color2'/" $cava_config
     pkill -USR2 cava 2>/dev/null
+    color12=$(awk 'match($0, /color12=\47(.*)\47/,a) { print a[1] }' ~/.cache/wal/colors.sh)
+    yazi_theme="$HOME/.config/yazi/theme.toml"
+    sed -i 's/fg = ".*"/fg = "'$color12'"/' $yazi_theme
+    pkill yazi
     source ~/.cache/wal/colors.sh && cp -r $wallpaper ~/Pictures/pywallpaper.jpg
 }
 
