@@ -6,9 +6,14 @@ return {
             require('rose-pine').setup({
                 styles = {
                     transparency = true,
+                    italic = false,
+                },
+                highlight_groups = {
+                    Comment = { italic = true },
+                    String = { italic = true },
                 }
             })
-            vim.cmd("colorscheme rose-pine")
+            vim.cmd.colorscheme("rose-pine")
         end
     },
     {

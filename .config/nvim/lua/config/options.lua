@@ -24,3 +24,6 @@ vim.opt.undofile = true
 vim.g.mapleader = " "
 
 vim.opt.showmode = false
+
+vim.o.winborder = 'rounded'
+vim.opt.wrap = false
