@@ -1,0 +1,29 @@
+[icon]
+globs = []
+dirs  = [
+	{ name = ".config", text = "", fg = "#8F8F8F" },
+	{ name = ".git", text = "", fg = "#8F8F8F" },
+	{ name = ".github", text = "", fg = "#8F8F8F" },
+	{ name = ".npm", text = "", fg = "#8F8F8F" },
+	{ name = "Desktop", text = "", fg = "#8F8F8F" },
+	{ name = "Development", text = "", fg = "#8F8F8F" },
+	{ name = "Documents", text = "", fg = "#8F8F8F" },
+	{ name = "Downloads", text = "", fg = "#8F8F8F" },
+	{ name = "Library", text = "", fg = "#8F8F8F" },
+	{ name = "Movies", text = "", fg = "#8F8F8F" },
+	{ name = "Music", text = "", fg = "#8F8F8F" },
+	{ name = "Pictures", text = "", fg = "#8F8F8F" },
+	{ name = "Public", text = "", fg = "#8F8F8F" },
+	{ name = "Videos", text = "", fg = "#8F8F8F" },
+	{ name = "Python", text = "", fg = "#8F8F8F" },
+	{ name = "Java", text = "", fg = "#8F8F8F" },
+	{ name = "Lua", text = "", fg = "#8F8F8F" },
+	{ name = "C", text = "", fg = "#8F8F8F" },
+	{ name = "Cpp", text = "", fg = "#8F8F8F" },
+	{ name = "JavaScript", text = "", fg = "#8F8F8F" },
+	{ name = "Haskell", text = "", fg = "#8F8F8F" },
+	{ name = "Games", text = "󰊗", fg = "#8F8F8F" },
+]
+conds = [
+	{ if = "dir", text = "", fg = "#8F8F8F" }
+]
